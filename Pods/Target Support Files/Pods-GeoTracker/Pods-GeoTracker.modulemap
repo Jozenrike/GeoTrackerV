@@ -1,0 +1,6 @@
+framework module Pods_GeoTracker {
+  umbrella header "Pods-GeoTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C9C6B2779B79CEFFA3EADA5 /* Pods_GeoTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2F50A5E210664C48789D48 /* Pods_GeoTracker.framework */; };
 		84BFBDDC1E50E8EC00411D92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BFBDDB1E50E8EC00411D92 /* AppDelegate.swift */; };
 		84BFBDDE1E50E8EC00411D92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BFBDDD1E50E8EC00411D92 /* ViewController.swift */; };
 		84BFBDE11E50E8EC00411D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BFBDDF1E50E8EC00411D92 /* Main.storyboard */; };
 		84BFBDE31E50E8EC00411D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BFBDE21E50E8EC00411D92 /* Assets.xcassets */; };
 		84BFBDE61E50E8EC00411D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BFBDE41E50E8EC00411D92 /* LaunchScreen.storyboard */; };
+		84BFBDF01E50E9E500411D92 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BFBDEF1E50E9E500411D92 /* SWRevealViewController.m */; };
+		84BFBDF21E50EA6600411D92 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BFBDF11E50EA6600411D92 /* BackTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A867C4E50A0DEFF636FEDF9 /* Pods-GeoTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoTracker/Pods-GeoTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		56DF6E7ED541E50F163E62FE /* Pods-GeoTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoTracker/Pods-GeoTracker.release.xcconfig"; sourceTree = "<group>"; };
 		84BFBDD81E50E8EC00411D92 /* GeoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BFBDDB1E50E8EC00411D92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BFBDDD1E50E8EC00411D92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,11 @@
 		84BFBDE21E50E8EC00411D92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84BFBDE51E50E8EC00411D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BFBDE71E50E8EC00411D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BFBDED1E50E9E400411D92 /* GeoTracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoTracker-Bridging-Header.h"; sourceTree = "<group>"; };
+		84BFBDEE1E50E9E500411D92 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		84BFBDEF1E50E9E500411D92 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		84BFBDF11E50EA6600411D92 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		DE2F50A5E210664C48789D48 /* Pods_GeoTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C9C6B2779B79CEFFA3EADA5 /* Pods_GeoTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B35E6D1EFF7ED2977D20443 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE2F50A5E210664C48789D48 /* Pods_GeoTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3406A37628DFBA6266030D76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A867C4E50A0DEFF636FEDF9 /* Pods-GeoTracker.debug.xcconfig */,
+				56DF6E7ED541E50F163E62FE /* Pods-GeoTracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		84BFBDCF1E50E8EC00411D92 = {
 			isa = PBXGroup;
 			children = (
 				84BFBDDA1E50E8EC00411D92 /* GeoTracker */,
 				84BFBDD91E50E8EC00411D92 /* Products */,
+				3406A37628DFBA6266030D76 /* Pods */,
+				1B35E6D1EFF7ED2977D20443 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +84,16 @@
 		84BFBDDA1E50E8EC00411D92 /* GeoTracker */ = {
 			isa = PBXGroup;
 			children = (
+				84BFBDEE1E50E9E500411D92 /* SWRevealViewController.h */,
+				84BFBDEF1E50E9E500411D92 /* SWRevealViewController.m */,
+				84BFBDF11E50EA6600411D92 /* BackTableVC.swift */,
 				84BFBDDB1E50E8EC00411D92 /* AppDelegate.swift */,
 				84BFBDDD1E50E8EC00411D92 /* ViewController.swift */,
 				84BFBDDF1E50E8EC00411D92 /* Main.storyboard */,
 				84BFBDE21E50E8EC00411D92 /* Assets.xcassets */,
 				84BFBDE41E50E8EC00411D92 /* LaunchScreen.storyboard */,
 				84BFBDE71E50E8EC00411D92 /* Info.plist */,
+				84BFBDED1E50E9E400411D92 /* GeoTracker-Bridging-Header.h */,
 			);
 			path = GeoTracker;
 			sourceTree = "<group>";
@@ -71,9 +105,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84BFBDEA1E50E8EC00411D92 /* Build configuration list for PBXNativeTarget "GeoTracker" */;
 			buildPhases = (
+				C4900DAA7F4BCADB59D719ED /* [CP] Check Pods Manifest.lock */,
 				84BFBDD41E50E8EC00411D92 /* Sources */,
 				84BFBDD51E50E8EC00411D92 /* Frameworks */,
 				84BFBDD61E50E8EC00411D92 /* Resources */,
+				29D54DCE5A1DB091A0C2EA83 /* [CP] Embed Pods Frameworks */,
+				7D82F498D661CBE771422601 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +134,7 @@
 					84BFBDD71E50E8EC00411D92 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 25J2D97297;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +170,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29D54DCE5A1DB091A0C2EA83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoTracker/Pods-GeoTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D82F498D661CBE771422601 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoTracker/Pods-GeoTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4900DAA7F4BCADB59D719ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84BFBDD41E50E8EC00411D92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +225,8 @@
 			files = (
 				84BFBDDE1E50E8EC00411D92 /* ViewController.swift in Sources */,
 				84BFBDDC1E50E8EC00411D92 /* AppDelegate.swift in Sources */,
+				84BFBDF21E50EA6600411D92 /* BackTableVC.swift in Sources */,
+				84BFBDF01E50E9E500411D92 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,26 +345,37 @@
 		};
 		84BFBDEB1E50E8EC00411D92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A867C4E50A0DEFF636FEDF9 /* Pods-GeoTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 25J2D97297;
 				INFOPLIST_FILE = GeoTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GeoTracker.GeoTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GeoTracker/GeoTracker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		84BFBDEC1E50E8EC00411D92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DF6E7ED541E50F163E62FE /* Pods-GeoTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 25J2D97297;
 				INFOPLIST_FILE = GeoTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GeoTracker.GeoTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GeoTracker/GeoTracker-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +399,7 @@
 				84BFBDEC1E50E8EC00411D92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
